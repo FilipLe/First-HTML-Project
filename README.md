@@ -1,2 +1,2 @@
 # HTML-Projects
-'My Website' is my first ever website, made back in 2018.
+HTML Projects made for fun from 2017-2018
