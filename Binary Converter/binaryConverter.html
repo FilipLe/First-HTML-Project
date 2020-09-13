@@ -1,0 +1,29 @@
+<html>
+<head><title>Binary Converter</title>
+<h2> Decimal To Binary Converter </h2>
+	
+		<script type = "text/javascript">
+	//Converting a number into a binary number with While looping
+ //Declaration
+ function tobinary(n)
+ {
+	var answer=" ";
+	var working = n; var rem; 
+	document.write(n)
+	document.write("<br>");
+	while(working>0)
+	{
+		rem=working%2;
+		working=(working-rem)/2;
+		if(rem==0) answer="0"+answer;
+		if(rem==1) answer="1"+answer;
+	}
+	return answer
+ }
+//Using	
+	var n=prompt("Give me a number to convert to a binary number");
+	 document.write("The number"+ "&ensp;"+ n +"&ensp;" + "is"+"&ensp;"+tobinary(n) + "&ensp;"+"in  binary system");
+	</script>
+	</head>
+	<body bgcolor="Aquamarine">	</body>
+</html>
